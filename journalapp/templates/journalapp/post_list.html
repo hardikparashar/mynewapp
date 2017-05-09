@@ -7,7 +7,7 @@
                 {{ post.published_date }}
             </div>
             <h1 class="head"><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
-            <p>{{ post.text|safe|truncatewords:"80"|linebreaksbr }}</p>
+            <p>{{ post.text|safe|truncatewords:"120"|linebreaksbr }}</p>
 			<a href="{% url 'post_detail' pk=post.pk %}">...read more</a>
 			<p>{{ post.author }}</p>
         </div>
