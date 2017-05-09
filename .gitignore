@@ -1,8 +1,7 @@
 *.pyc
 *~
 __pycache__
+testapp
 db.sqlite3
 /static
 .DS_Store
-blogenv
-local_settings.py
